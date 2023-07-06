@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+
+  <body>
+    <!--header design-->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--home section-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello It's Me</h3>
+        <h1>Harsh Yadav</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Hi, I'm Harsh, a passionate web developer currently pursuing my B.Tech
+          degree. With expertise in JavaScript, React, and Node.js, I enjoy
+          crafting interactive and user-friendly web experiences.In addition to
+          web development, I also have a strong background in Java and keep
+          myself updated with the latest market demands. I possess skills in
+          photo and video editing, enabling me to create visually captivating
+          content.
+          <br />
+          Feel free to connect with me on my social media handles
+        </p>
+
+        <div class="social-media">
+          <a href="https://twitter.com/_Harsh_Y_"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://github.com/harsh589"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/harsh-yadav-2b6223204/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1orBze_2ZwBHg7u8c1oh7WpZjr7xKT3lf/view?usp=drive_link"
+          class="btn"
+          >Download resume</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img
+          src="image1.jpg"
+          height="380px"
+          width="280px"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!--about section-->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="image2.png"
+          height="380px"
+          width="280px"
+          alt=""
+        />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>
+          My name is Harsh, and I am currently pursuing my B.Tech degree From
+          noida institute of engineering and technology while also working as a
+          web developer. I have a strong background in React and Node.js, and I
+          am currently honing my skills in backend development. Additionally, I
+          have experience in solving coding questions on platforms like LeetCode
+          and have achieved a 5-star rating on HackerRank.Aside from my
+          expertise in web development and coding, I possess skills in photo and
+          video editing. I am proficient in using various tools and software to
+          enhance and manipulate images and videos, allowing me to create
+          visually appealing and captivating content. Overall, with my solid
+          foundation in web development, proficiency in React and Node.js,
+          experience in competitive coding, and abilities in photo and video
+          editing, I am equipped with a diverse skill set to tackle a wide range
+          of projects and challenges.
+        </p>
+      </div>
+    </section>
+
+    <!--portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Weather Application</h4>
+            <p>
+              The Weather Application is a user-friendly and visually appealing
+              web application designed to provide weather information for
+              different locations. Built using HTML, CSS, and JavaScript, this
+              application enables users to easily access accurate weather
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Crypto-App (Coiner)</h4>
+            <p>
+              The React-based cryptocurrency app provides real-time information
+              about trending cryptocurrencies . It uses APIs to fetch data and offers a
+              user-friendly interface. With interactive charts and graphs, the app empowers
+              users to make informed decisions in the fast-paced crypto market.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="project3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Project is in progress</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section-->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subsitute" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Harsh | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!--scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
